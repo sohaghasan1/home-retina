@@ -1,0 +1,134 @@
+@media(max-width:1199px) {
+     .social-icon {
+    margin-top: 330%;
+  margin-left: 100%;
+}
+    .chair-img img {
+    max-width: 110%;
+}
+    .toggle-part {
+    height: 370px;
+}
+    .first-content {
+    position: absolute;
+    left: 0;
+    top: 40%;
+    transform: translate(30%, -50%);
+}
+    header {
+    min-height:0px;;
+}
+    .feature-eight {
+    min-height: 141px;
+}
+    .content-seven h2 {
+  
+    font-size: 20px;
+}
+   .content-seven p {
+    font-size: 10px;
+} 
+    .view-project-four h5 {
+    font-size: 15px;
+   
+}
+    .view-project-four i {
+    margin-top: 4px;
+    margin-right: 3px;
+}
+    .view-project-four {
+    position: absolute;
+    top: 70%;
+    width: 75%;
+}
+    .love-four i {
+    margin-left: 12px;
+    font-size: 14px;
+}
+    .love-four p {
+    margin-top: -10px;
+}
+    .view-project-three {
+    left: 67%;
+}
+    .love-three {
+    left: 80%;
+}
+    .view-project-five {
+    position: absolute;
+    top: 85%;
+    width: 57%;
+}
+    .love-five {
+    position: absolute;
+    top: 83%;
+    left: 70%;
+}
+    .view-project-two {
+    width: 77%;
+}
+    .view-project-six {
+    position: absolute;
+    top: 93%;
+    left: 5%;
+    width: 58%;
+}
+    .love-six {
+    top: 87%;
+}
+    .content-ten {
+    position: absolute;
+    top: 40%;
+    left: 15%;
+}
+    .view-project-seven {
+    top: 50%;
+}
+    .love-seven {
+    position: absolute;
+    top: 47%;
+    left: 87%;
+}
+    .view-project-eight {
+    position: absolute;
+    top: 74%;
+    width: 57%;
+    left: 42%;
+}
+    .love-eight {
+    position: absolute;
+    top: 82%;
+    left: 66%;
+}
+    .right {
+    margin-left: 21%;
+}
+    .address-two {
+    position: absolute;
+    top: 58%;
+    left: 50%;
+}
+    .address {
+    position: absolute;
+    top: 30%;
+    left: 49%;
+    font-size: 16px;
+}
+}
+
+
+@media(max-width: 991px){ 
+   
+}
+
+@media(max-width:767px) {
+   
+   
+}
+
+@media(max-width:576px) {
+  
+}
+@media(max-width:374px){
+   
+}

@@ -1,0 +1,837 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    min-height: 500px;
+    background-color: #E9EAE2;
+}
+.logo-part{
+
+    position: relative;
+}
+.logo{
+    position: absolute;
+    left: 0;
+    top: 15%;
+    width: 122px;
+    /* font-size: 21px; */
+    transform: translate(90%, 10%);
+}
+.logo img{
+    width: 110px;
+}
+.toggle-part{
+    background-image: url(../images/home-retina.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 500px;
+}
+.navbar-light .navbar-toggler {
+    color: rgb(255, 255, 255);
+    border-color: #fbfeff;
+}
+.navbar {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: center;
+    /* padding: .5rem 1rem; */
+    padding-top: 60px;
+}
+p {
+    margin-top: 0;
+    margin-bottom: -2rem;
+}
+.chair-img{
+    /* position: absolute; */
+    /* left: 0; */
+    /* transform: translate(-9%, 0%); */
+}
+.chair-img img{
+    max-width: 100%;
+    margin-top: 50px;
+}
+.first-content{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(50%, -50%);
+}
+.first-content p{
+    
+color: white;
+}
+.second-content{
+    position: absolute;
+    left: 20%;
+    top: 70%;
+    transform: translate(50%, 100%);
+}
+.second-content p{
+    
+color: white;
+}
+.social-icon{
+    margin-top: 250%;
+    width: 200px;
+    margin-left: 65%;
+}
+.nav{}
+.nav li{
+    /* padding: 0px; */
+}
+.nav li a{
+    /* margin-right: 0px!important; */
+    /* margin-left: 34px; */
+}
+.nav li a i{
+    color: #7ACEC3;
+    font-size: 24px;
+}
+
+.feature{
+    
+}
+.feature-one{
+    min-height: 350px;
+}
+.feature-two{}
+.feature-three{}
+.feature-four{
+    background-image: url(../images/home-retina-yallow.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.third-content{
+    position: absolute;
+    top: 30%;
+    left: 15%;
+}
+.third-content p{
+    color: white;
+    text-transform: uppercase;
+}
+.third-content p:first-child{
+    color: black;
+}
+.heading-one{
+    position: absolute;
+    top: 62%;
+    left: 35%;
+}
+.errow{
+     position: absolute;
+    top: 30%;
+    left: 10%;
+}
+.errow i{
+    color: white;
+}
+.heading-one h2{
+    color: white;
+    text-transform: uppercase;
+}
+.feature-five{
+
+    background-image: url(../images/home-retina-bulb.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.content-fourth{
+    position: absolute;
+    top: 10%;
+}
+.content-fourth h2{
+    
+font-weight: 100;
+    
+text-transform: uppercase;
+}
+.content-fourth p{
+    
+font-size: 12px;
+    
+color: #262b26;
+}
+.view-project{
+    
+position: absolute;
+    
+top: 55%;
+    
+width: 45%;
+    
+/* vertical-align: middle; */
+}
+.view-project i{
+    
+color: #EBB240;
+    
+float: left;
+    
+margin-right: 10px;
+    
+margin-top: 7px;
+}
+.view-project h5{
+    
+color: #A1A1A1;
+    
+font-weight: 100;  
+text-transform: uppercase;
+}
+.love{
+    position: absolute;
+    top: 75%;
+    left: 20%;
+}
+.love i{
+    text-align: center;
+    /* margin-right: 4px!important; */
+    padding-left: 11px;
+}
+.love p{
+    color: #EBB240;
+    /* margin-right: 8px; */
+    /* padding-right: 8px; */
+    /* text-align: center; */
+}
+.feature-ex{
+ min-height: 390px;
+}
+.feature-six{
+      background-image: url(../images/home-retina-chair-3.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      /* width: 100%; */
+      background-position: center center;
+      position: relative;
+}
+.content-fith{
+    position: absolute;
+    top: 6%;
+}
+.content-fith h2{
+    color: white;
+    font-weight: 100;
+}
+.content-fith h6{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+.content-fith p{
+    color: white;
+    font-weight: 100;
+    font-size: 13px;
+}
+.view-project-two{
+    position: absolute;
+    top: 54%;
+    left: 7%;
+    width: 62%;
+}
+.view-project-two i{
+    color: #EBB240;
+    float: left;
+    padding-right: 10px;
+    margin-top: 7px;
+}
+.view-project-two h5{
+    color: white;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+.love-two{
+    position: absolute;
+    top: 70%;
+    left: 6%;
+}
+.love-two i{
+    color: white;
+    font-weight: 100;
+    margin-left: 15px;
+}
+.love-two p{
+    color: #EBB240;
+}
+
+
+.feature-seven{
+        background-image: url(../images/home-retina-chair-4.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+}
+.content-six{
+    position: absolute;
+    top: 10%;
+    left: 33%;
+}
+.content-six h2{
+    color: #383838;
+}
+.content-six p{
+    font-size: 13px;
+    color: #2a2f2a;
+}
+.view-project-three{
+    top: 30%;
+    position: absolute;
+    left: 64%;
+    width: 80%;
+}
+.view-project-three i{
+    color: #EBB240;
+    float: left;
+    padding-right: 10px;
+    margin-top: 7px;
+}
+.view-project-three h5{color: black;
+    font-weight: 100;
+    text-transform: uppercase;}
+.love-three{
+    position: absolute;
+    top: 40%;
+    left: 72%;
+}
+.love-three i{
+    font-size: 26px;
+}
+.love-three p{
+    color: #eb4063;
+}
+
+
+
+.feature-eight{
+    background-image: url(../images/home-retina-speaker.png);
+    background-size: contain;
+    position: relative;
+    background-repeat: no-repeat;
+    min-height: 180px;
+}
+.content-seven{
+    position: absolute;
+    top: 1%;
+    width: 50%;
+}
+.content-seven h2{
+    color: bla;
+    color: #7D7D7A;
+    font-weight: 100;
+    font-size: 27px;
+    text-transform: uppercase;
+}
+.content-seven p{
+    font-size: 12px;
+    color: #2a2f2a;
+    margin-top: -7px;
+}
+.view-project-four{
+    position: absolute;
+    top: 64%;
+    width: 80%;
+}
+.view-project-four i{
+    color: #EBB240;
+    float: left;
+    margin-top: 7px;
+    margin-right: 3px;
+}
+.view-project-four h5{
+    color: black;
+    font-weight: 100;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.love-four{
+    position: absolute;
+    top: 75%;
+    left: 22%;
+}
+.love-four i{
+    margin-left: 12px;
+}
+.love-four p{
+    color: red;
+}
+.feature-nine{
+     background-image: url(../images/home-retina-chair-2.png);
+     background-size: cover;
+     background-repeat: no-repeat;
+     min-height: 360px;
+     position: relative;
+}
+.content-eight{
+    position: absolute;
+    top: 46%;
+}
+.content-eight h2{
+    color: #212529;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 27px;
+}
+.content-eight p{
+    font-weight: 100;
+    color: #2a2f2a;
+    font-size: 13px;
+}
+.view-project-five{
+    position: absolute;
+    top: 81%;
+    width: 50%;
+}
+.view-project-five i{
+    color: #EBB240;
+    float: left;
+    margin-right: 7px;
+    margin-top: 7px;
+}
+.view-project-five h5{
+    color: #322000;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+.love-five{
+    position: absolute;
+    top: 80%;
+    left: 60%;
+}
+.love-five i{
+    margin-left: 10px;
+    font-size: 20px;
+}
+.love-five p{
+    color: red;
+}
+
+.feature-ten{
+     background-image: url(../images//home-retina-chair-5.png);
+     background-size: contain;
+     background-repeat: no-repeat;
+     min-height: 200px;
+     position: relative;
+}
+.content-nine{
+    position: absolute;
+    /* top: -7%; */
+    left: 52%;
+}
+.content-nine h2{
+    color: #212529;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 100;
+}
+.content-nine p{
+    text-transform: capitalize;
+    font-size: 13px;
+    font-weight: 100;
+    color: #707370;
+}
+.view-project-six{
+    position: absolute;
+    top: 67%;
+    left: 50%;
+    width: 50%;
+}
+.view-project-six i{
+    color: #EBB240;
+    float: left;
+    margin-right: 7px;
+    margin-top: 8px;
+}
+.view-project-six h5{
+    color: black;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+.love-six{
+    position: absolute;
+    top: 77%;
+    left: 70%;
+}
+.love-six i{
+    margin-left: 10px;
+}
+.love-six p{
+    color: red;
+    /* margin-bottom: 6px; */
+}
+
+.show-case-one{
+    background-image: url(../images/home-retina-sofa.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 350px;
+    position: relative;
+}
+.show-case-two{
+    background-image: url(../images/home-retina-sound.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 200px;
+    position: relative;
+}
+.show-case-three{
+     background-image: url(../images/home-retina-yallow-2.png);
+     background-size: cover;
+     background-repeat: no-repeat;
+     min-height: 200px;
+     /* width: 43px; */
+     position: relative;
+}
+.show-case-one{
+    /* position: relative; */
+}
+.content-ten{
+    position: absolute;
+    top: 60%;
+    left: 20%;
+}
+.content-ten h2{
+    color: #212529;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+.content-ten p{
+    text-transform: capitalize;
+    font-size: 13px;
+    color: #2a2f2a;
+}
+.view-project-seven{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    width: 50%;
+}
+.view-project-seven i{
+    color: #EBB240;
+    float: left;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+.view-project-seven h5{
+    font-weight: 100;
+    color: #44433c;
+    text-transform: uppercase;
+}
+.love-seven{
+    position: absolute;
+    top: 70%;
+    left: 80%;
+}
+.love-seven i{
+    margin-left: 10px;
+    font-size: 20px;
+}
+.love-seven p{
+    color: red;
+}
+.content-eliven{
+    position: absolute;
+    top: 20%;
+    left: 52%;
+}
+.content-eliven h2{
+    color: #211c1c;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+.content-eliven p{
+    font-size: 13px;
+    text-transform: capitalize;
+    color: #2a2f2a;
+}
+
+.view-project-eight{
+    position: absolute;
+    top: 63%;
+    width: 50%;
+    left: 53%;
+}
+.view-project-eight i{
+    color: #EBB240;
+    margin-right: 5px;
+    float: left;
+    margin-top: 7px;
+}
+.view-project-eight h5{
+    color: #211c1c;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+.love-eight{
+    position: absolute;
+    top: 75%;
+    left: 70%;
+}
+.love-eight i{
+    margin-left: 10px;
+}
+.love-eight p{
+    color: red;
+}
+.errow-three{
+    position: absolute;
+    top: 22%;
+    left: 12%;
+}
+.errow-three i{
+    color: white;
+}
+.content-twelve{
+    position: absolute;
+    top: 22%;
+    left: 17%;
+}
+.content-twelve p{
+    color: white;
+}
+.heading-three{
+    position: absolute;
+    top: 15%;
+    left: 15%;
+}
+.heading-three h5{
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.studio{
+    background-color: #E9EAE2;
+    /* height: 361px; */
+    min-height: 390px;
+}
+.studio-one{
+       background-image: url(../images/home-retina-pink.png);
+       background-size: cover;
+       background-repeat: no-repeat;
+       min-height: 390px;
+       /* width: 43px; */
+       position: relative;
+}
+.studio-one h2{
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    color: white;
+    text-transform: uppercase;
+}
+.studio-two {}
+.studio-content{}
+.studio-content p{
+    padding: 28px;
+    color: #707370;
+}
+.studio-card{}
+.card-img img{
+   
+width: 70%;
+   
+margin-top: 35px;
+}
+.card-img h3{
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.card-img span{
+    width: 100%;
+    /* color: #1b1a1a; */
+    height: 1px;
+    background-color: black;
+    display: block;
+}
+
+.card-content{
+    margin-top: 10px;
+    float: left;
+}
+.card-content p{
+    font-size: 13px;
+    color: #2a2f2a;
+    margin-left: 15px;
+    text-transform: capitalize;
+}
+
+.staff{
+    background-color: #E9EAE2;
+    min-height: 300px;
+}
+.staff-content{
+    margin-top: 20px;
+}
+.staff-content h3{
+    text-transform: uppercase;
+    margin-top: 15px;
+    color: #707370;
+}
+.staff-content p{
+    text-transform: capitalize;
+    padding-top: 33px;
+    color: #707370;
+}
+.staff-img{
+    /* width: 100%; */
+    margin-top: 32px;
+}
+.staff-img h4{
+    text-transform: uppercase;
+    font-size: 21px;
+    color: #2d2f2d;
+}
+.staff-img h5{
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 15px;
+}
+.staff-img img{
+    width: 100%;
+}
+.card-icon{
+   
+}
+.left{
+    margin-left: -15px;
+}
+.left ul {}
+.left ul li{}
+.left ul li a{}
+.left ul li a i{
+    color: #FF9B6D;
+    margin-left: 7px;
+    font-size: 17px;
+}
+.left ul li a h6{
+    color: #FF9B6D;
+    /* float: left; */
+    display: inline;
+    font-size: 20px;
+}
+.right{
+    margin-right: 0px;
+    right: 0px;
+    /* left: -4px; */
+    margin-left: 35%;
+}
+.right ul{}
+.right ul li{}
+.right ul li a{
+    padding: 10px;
+}
+.right ul li a i{
+    color: #FF9B6D;
+    font-size: 16px;
+}
+.news{
+    background-color: #E5E9DF;
+    min-height: 300px;
+    /* margin-top: 14px; */
+    padding-top: 50px;
+    /* padding-bottom: 50px; */
+    /* margin-bottom: 10px; */
+}
+
+.news-bg{
+    background-image: url(../images/home-retina-green.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 450px;
+    /* padding-bottom: 29px; */
+}
+.single-feature{
+    position: relative;
+}
+.single-feature h2{
+    text-transform: capitalize;
+    font-weight: 100;
+    margin-top: 20px;
+}
+.single-feature h6{}
+.single-feature span{
+    position: absolute;
+    bottom: -60px;
+    right: 15px;
+    color: red;
+    text-transform: uppercase;
+}
+.single-feature img{
+    width: 100%;
+}
+.single-feature p{
+    font-size: 14px;
+    color: #707370;
+    margin-top: 12px;
+}
+footer{
+    background-color: #E9EAE2;
+    padding-top: 0px;
+}
+.footer-content{}
+.footer-content-sec {
+    position: relative;
+}
+.address{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    font-size: 16px;
+}
+.address p{
+    color: #707370;
+}
+.address-two{
+    position: absolute;
+    top: 55%;
+    left: 30%;
+}
+.address-two p{
+    color: #707370;
+}
+.footer-logo-content{
+    /* position: relative; */
+}
+.footer-logo{
+    /* position: absolute; */
+}
+.footer-logo img{
+    width: 50%;
+    margin-top: 31%;
+}
+.footer-logo p{}
+.footer-social-icon{
+    margin-top: 12%;
+}
+.footer-social-icon ul {}
+.footer-social-icon ul li{
+   
+}
+.footer-social-icon ul li a{
+    padding: 20px;
+}
+.footer-social-icon ul li a:first-child{
+    padding-left: 0px;
+}
+.footer-social-icon ul li a i{}
+
+.show-case-one{
+    background-color: #FCFCFC;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+
+
+
